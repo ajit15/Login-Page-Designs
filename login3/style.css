@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background-image: url('/LoginPages/login3/images/pexels-ioannis-ritos-995043.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.wrapper > img{
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+}
+
+.wrapper{
+    height: 400px;
+    width: 30%;
+    background-color:rgba(0,0,0,0.7);
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform:  translateY(-50%);
+}
+
+.wrapper > img{
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px)
+}
+
+.wrapper h2{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 60px;
+}
+
+.wrapper form{
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70%;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.wrapper form > label{
+    font-size: 1.1rem;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    }
+
+.wrapper form input[type="text"], input[type="password"]{
+    line-height: 1.5rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    background: transparent;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 5px;
+}
+
+.wrapper form input[type="submit"]{
+    background-color: #1816;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: #fff;
+    height: 2rem;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wrapper form input[type="text"]:focus, input[type="password"]:focus{
+    outline: none !important;
+}
+.wrapper form > a{
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 0.8rem;
+    font-weight: bold;  
+    padding: 10px 0;
+    
+} 
+.wrapper form > p{
+    margin-top: 30px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+@media(max-width: 480px) {
+    .wrapper{
+        width:80%;
+    }
+    .wrapper form{
+        width: 90%;
+    }
+}

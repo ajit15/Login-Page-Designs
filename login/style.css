@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    height: 100vh;
+    background-image: url('./images/Futeristic-Pattern.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.wrapper .header{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+.wrapper .content{
+    height: 400px;
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid gray;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+.content .left{
+    
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-image: url('./images/Black-Patterns.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content .right{
+    width: 50%;
+    height: 400px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.right form{
+    height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 80px 40px;
+}
+
+.right form label{
+    display: block;
+    padding: 10px 0;
+}
+
+.right form input[type="text"],input[type="password"]{
+    line-height: 1.5rem;
+    width: 100%;
+}
+
+.right form .primary{
+    width: 100%;
+    margin: 15px 0;
+    height: 1.8rem;
+    background-color: #916;
+    border-radius: 3px;
+    color:#fff;
+}
+
+.right form .primary:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.right form a{
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+    font-size: 15px;
+
+}
